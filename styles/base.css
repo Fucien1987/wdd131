@@ -114,8 +114,8 @@ footer {
 }
 
 .country-grid img {
-    width: 140px;
-    justify-self: center;
+    width: 100px;
+    justify-self: end;
 }
 
 section :first-of-type h3 :nth-of-type(2) {
