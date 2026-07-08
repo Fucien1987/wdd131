@@ -91,7 +91,7 @@ footer {
 
 .about-grid {
     display: flex;
-    grid-template-columns: 1fr 100px;
+    grid-template-columns: 3fr 200px;
     gap: 10px;
     align-items: center;
 }
@@ -103,12 +103,12 @@ footer {
 }
 .about-grid p {
     grid-column: 1;
-    margin: 10px;
+    margin: 20px;
 }
 
 .country-grid {
     display: flex;
-    grid-template-columns: 1fr 300px;
+    grid-template-columns: 3fr 200px;
     gap: 10px;
     align-items: center;
 }
