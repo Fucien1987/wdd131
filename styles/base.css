@@ -91,7 +91,7 @@ footer {
 
 .about-grid {
     display: flex;
-    grid-template-columns: 3fr 100px;
+    grid-template-columns: 1fr 100px;
     gap: 10px;
     align-items: center;
 }
