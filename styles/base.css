@@ -35,6 +35,8 @@ nav {
 
 nav a {
     transition: 0.3s;
+    color: white;
+    text-decoration: none;
 }
 
 nav a :hover {
