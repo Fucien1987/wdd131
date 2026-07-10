@@ -19,6 +19,16 @@
     }
 
     .gallery {
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    .navigation {
+        flex-direction: row;
     }
 }
