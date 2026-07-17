@@ -33,9 +33,11 @@
         
     }
 
-    weather {
+    .weather {
+        position: absolute;
+        width: 250px;
         right: 30px;
-        bottom: 40px;
+        bottom: 30px;
     }
 
     .weather img {

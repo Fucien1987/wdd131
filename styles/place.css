@@ -18,6 +18,7 @@ body {
 }
 
 header {
+    background-color: #c8102e;
     color: white;
     text-align: center;
     padding: 1rem;
@@ -39,6 +40,7 @@ header h1 {
 
 .data,
 .weather {
+    background-color: #0057b8;
     margin: 1rem;
     padding: 1rem;
     border-radius: 8px;
@@ -66,8 +68,9 @@ header h1 {
 }
 
 footer {
-    background: var(--secondary-color);
+    background-color: #c8102e;
     color: white;
+    border-radius: 8px;
     text-align: center;
     padding: 1rem;
     margin-top: 1rem;
