@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    background: var(--secondary-color);
+    background: rgba(--secondary-color);
     color: white;
     text-align: center;
     padding: 1rem;
@@ -39,7 +39,7 @@ header h1 {
 }
 .data,
 .weather {
-    background: var (var(--box-bg));
+    background: rgba (var(--box-bg));
     margin: 1rem;
     padding: 1rem;
     border-radius: 8px;
