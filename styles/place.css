@@ -33,17 +33,17 @@ header h1 {
 }
 
 .hero img {
-    width: 100%
+    width: 100%;
     height: auto;
     display: block;
 }
-
 .data,
 .weather {
-    background: white
+    background: var (--box-bg);
     margin: 1rem;
     padding: 1rem;
     border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .data h2,

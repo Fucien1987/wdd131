@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) 
 
     main {
-        position:relative;
+        position: relative;
     }
 
     .hero {
@@ -22,20 +22,26 @@
 
     .data, 
     .weather {
-        position:flex
-        width: 260px;
+        position:absolute;
+        width: 250px;
         margin: 0;
         padding: 1rem;
         background: white;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 6px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        z-index: 2;
         
     }
 
     weather {
         right: 30px;
+        bottom: 40px;
     }
 
     .weather img {
-        display: contents;
+        display: none;
+        ...
     }
 
     .weather h2 ::after {
