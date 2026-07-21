@@ -1,22 +1,28 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 700px) {
     main {
-        position: relative;
+        max-width: auto;
+        margin: 0 auto;
     }
-}
+
+    header {
+        padding: 1.5rem;
+    }
     .hero {
-        display: block;
+        position: relative;
+        max-width: auto;
+        margin: 0 auto;
     }
 
     .hero img {
-        width: 100%;
-        height: 600px;
-        object-fit: cover;
         display: block;
+        width: 100%;
+        height: auto;
     }
 
      .data {
-        top: 100px;
-        left: 30px;
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
     }
 
     .data, 
@@ -36,8 +42,8 @@
     .weather {
         position: absolute;
         width: 250px;
-        right: 30px;
-        bottom: 30px;
+        right: 2rem;
+        bottom: 2rem;
     }
 
     .weather img {
@@ -48,3 +54,7 @@
         content: "🌦️";
     }
 
+    footer {
+        max-width: auto;
+    }
+}
