@@ -80,6 +80,13 @@ const temples = [
     "https://churchofjesuschristtemples.org/assets/img/temples/santo-domingo-dominican-republic-temple/santo-domingo-dominican-republic-temple-12999.jpg"
   },
 ];
+const menuButton = document.querySelector("#menu");
+const navigation = document.querySelector(".navigation");
+
+menuButton.addEventListener("click", () => {
+  navigation.classList.toggle("open");
+  menuButton.classList.toggle("open");
+})
 
 const gallery = document.querySelector(".gallery");
 
