@@ -1,0 +1,23 @@
+@media only screen and (min-width: 768) {
+    #menu {
+        display: none;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .navigation a {
+        display: block;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+    }
+    .logo h1 {
+        text-align: left;
+    }
+}
