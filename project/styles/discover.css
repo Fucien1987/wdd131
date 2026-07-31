@@ -33,7 +33,7 @@ header {
     display: none;
     color: white;
     text-decoration: none;
-    padding: 75rem;
+    padding: 0.75rem;
     text-align: center;
 }
 .navigation a:hover {
