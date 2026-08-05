@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Kerlando Fucien">
-    <meta name="description" content="WDD 131 Product Review Form">
+    <meta name="description" content="Submit a product review by selecting a product, rating it, choosing useful features,and providing optional comments.">
 
     <title>Product Review</title>
 
@@ -24,31 +24,26 @@
         <label for="product">Product Name</label>
 
         <select id="product" name="product" required>
-            <option value="" disabled selected>Select a Produit...</option>
+            <option value="" disabled selected>Select a Product...</option>
         </select>
         <label>Overall Rating</label>
 
         <div class="rating">
-            <label>
-                &#9734;
-                <input type="radio" name="rating" id="star1" value="1" required>
-            </label>
-            <label>
-                &#9734;&#9734;
-                <input type="radio" name="rating" id="star2" value="2">
-            </label>
-            <label>
-                &#9734;&#9734;&#9734;
-                <input type="radio" name="rating" id="star3" value="3">
-            </label>
-            <label>
-                &#9734;&#9734;&#9734;&#9734;
-                <input type="radio" name="rating" id="star4" value="4">
-            </label>
-            <label>
-                &#9734;&#9734;&#9734;&#9734;&#9734;
-                <input type="radio" name="rating" id="star5" value="5">
-            </label>
+                <input type="radio" id="star1" name="rating"  value="1" required>
+                <label for="star1">&#9734;</label>
+
+                <input type="radio" id="star2" name="rating"  value="2" required>
+                <label for="star2">&#9734;&#9734;</label>
+            
+                <input type="radio" id="star3" name="rating"  value="3" required>
+                <label for="star3">&#9734;&#9734;&#9734;</label>
+         
+                <input type="radio" id="star4" name="rating"  value="4" required>
+                <label for="star4">&#9734;&#9734;&#9734;&#9734;</label>
+             
+                <input type="radio" id="star5" name="rating"  value="5" required>
+                <label for="star5">&#9734;&#9734;&#9734;&#9734;&#9734;</label>
+            
         </div>
         <label for="installDate">Date of Installation</label>
         <input
@@ -62,25 +57,18 @@
             <em>(Check all that apply)</em>
           </legend>
 
-          <label>
             <input type="checkbox" id="durability" name="features" value="Durability">
-            Durability
-          </label>
-
-          <label>
+            <label for="durability">Durability</label>
+          
             <input type="checkbox" id="ease" name="features" value="Ease of Use">
-            Ease of Use
-          </label>
-
-          <label>
+            <label for="ease">Ease of Use</label>
+          
             <input type="checkbox" id="performance" name="features" value="Performance">
-            Performance
-          </label>
+            <label for="performance">Performance</label>
 
-          <label>
             <input type="checkbox" id="design" name="features" value="Design">
-            Design
-         </label>
+            <label for="design"> Design</label>
+        
         </fieldset>
         
         <label for="review">
