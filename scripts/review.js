@@ -1,5 +1,11 @@
-onst year = document .querySelector("#currentyear");
-const lasModified = document.querySelector("#lastModified");
+let reviews = Number(localStorage.getItem("reviewCount")) || 0;
+reviews++;
+localStorage.setItem("reviewCount", reviews);
 
-year.textContent = new Date().getFullYear();
-lastModified.textContent = `Last Modification: ${document.lastModified}`;
+document.querySelector("#reviewCount").textContent = reviews;
+
+// Footer
+document.querySelector("#currentyear").textContent = new Date().getFullYear();
+
+document.querySelector("#lastModified").textContent =
+    `Last Modification: ${document.lastModified}`;
