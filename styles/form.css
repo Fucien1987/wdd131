@@ -46,7 +46,7 @@ textarea {
     gap: .25rem;
 }
 input[type="checkbox"] {
-    margin-right: .4rem;
+    margin-right: .5rem;
 }
 input[type="submit"] {
     margin-top: 1rem;
@@ -76,6 +76,10 @@ legend em {
 fieldset {
     margin-top: 2rem;
     padding: 1rem;
+}
+fieldset label {
+    display: flex;
+    margin: 1rem 1px;
 }
 @media screen and (min-width: 768px) {
     body {
